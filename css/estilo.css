@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #E6E6E6;
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.cabecalho{
+	background: #FACC2E;
+	text-align: center;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.tec{
+	color: #585858;
+	display: inline;
+}
+
+.blog{
+	color: white;
+	display: inline;
+}
+
+a{
+	padding: 10px;
+	text-decoration: none;
+}
+
+/* Não visitado */
+a:link{
+	color: #FACC2E;
+}
+
+/* Visitados */
+a:visited{
+	color: #FACC2E;
+}
+
+/* Links quando passa o cursor por cima */
+a:hover{
+	text-decoration: underline;
+}
+
+/* Links Ativos */
+a:active{
+	color: gray;
+}
+
+/* Não visitado */
+.cabecalho a:link{
+	color: white;
+}
+
+/* Visitados */
+.cabecalho a:visited{
+	color: white;
+}
+
+/* Links quando passa o cursor por cima */
+.cabecalho a:hover{
+	color: #FACC2E;
+	background: white;
+	text-decoration: none;
+}
+
+/* Links Ativos */
+.cabecalho a:active{
+	color: gray;
+}
+
+#principal{
+	width: 920px;
+	margin: 0 auto;
+}
+
+#area-postagem{
+	width: 660px;
+	margin: 10px;
+	background: white;
+	float: left;
+
+}
+
+#area-lateral{
+	width: 210px;
+	margin: 10px;
+	background: white;
+	float: right;
+}
+
+#rodape {
+	clear: both;
+	background: #CCC;
+	width: 920px;
+	padding: 10px;
+	text-align: center;
+}
+
+.titulo-postagem{
+	padding-top: 10px;
+	padding-left: 10px;
+	color: #FACC2E;
+}
+
+.subtitulo-postagem{
+	padding-top: -5px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-size: 0.8em;
+}
+
+.img-postagem{
+	padding: 10px;
+}
+
+.conteudo-postagem{
+	padding: 10px;
+}
+
+.titulo-lateral{
+	background: #CCC;
+	color: #585858;
+	font-size: 0.9em;
+	width: 170px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.display-block{
+	display: block;
+}
